@@ -1,7 +1,7 @@
 import { MeshProps, useFrame } from '@react-three/fiber';
 import { useSpring, animated, config } from '@react-spring/three';
 import { Suspense, useRef, useState } from 'react';
-import { MeshDistortMaterial, Environment } from '@react-three/drei';
+import { MeshDistortMaterial } from '@react-three/drei';
 
 const AnimatedDistortedMaterial = animated(MeshDistortMaterial);
 
@@ -27,8 +27,6 @@ const Sphere = () => {
       materialRef.current.speed = Math.abs(Math.sin(clock.getElapsedTime())) * 10;
     }
   });
-
-  console.log(hover, 'hovered');
 
   return (
     <>

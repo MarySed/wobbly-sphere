@@ -16,7 +16,9 @@ const About = () => {
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
       <h1 className={typographyStyles.headerLg}>Hello World</h1>
+
       <div className={styles.section}>
         <Image
           //@ts-expect-error
@@ -26,6 +28,7 @@ const About = () => {
           className={styles['profile-pic']}
         />
       </div>
+
       <div className={styles.section}>
         <Profile name={'Mary'} />
       </div>

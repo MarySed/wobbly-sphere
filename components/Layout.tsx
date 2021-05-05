@@ -10,7 +10,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <div className={styles.wrapper}>
-      <Header title={'Mary Sedarous'} />
+      <Header title={'All hail the sphere'} />
       <div className={styles.container}>{children}</div>
       <Footer />
     </div>

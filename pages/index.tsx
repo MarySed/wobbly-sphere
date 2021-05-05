@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from 'components/Layout';
 import Scene from 'components/Scene';
+import styles from 'styles/Home.module.css';
 
 const Home = () => {
   return (
@@ -17,14 +18,7 @@ const Home = () => {
 
         <Scene />
 
-        {/* TODO: Add react-three-fiber or something else here */}
-        <div> React three fiber or whatever I decide to use will go here.</div>
-        <div>This is just a test</div>
-        <div>
-          Still not totally sure what I want to do with this ahhhhhhhhhhhhhh :( Just gonna throw
-          some lorem ipsum below for now........
-        </div>
-        <div>
+        <div className={styles.content}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sagittis turpis. Interdum
           et malesuada fames ac ante ipsum primis in faucibus. Nam dictum porttitor nunc, eget
           egestas nisi faucibus sed. Sed tempus rutrum diam vel fermentum. Pellentesque ornare nibh
