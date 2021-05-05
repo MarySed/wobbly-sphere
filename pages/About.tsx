@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Profile from 'components/Profile';
 import Layout from 'components/Layout';
-import Footer from 'components/Footer';
 import styles from 'styles/About.module.css';
 import typographyStyles from 'styles/typography.module.css';
 
