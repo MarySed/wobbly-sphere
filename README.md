@@ -1,6 +1,9 @@
 # All Hail the Wobbly Sphere
 
 That's right. I just wanted to make a weird sphere in react-three-fiber.
+Featuring the distort material from r3f-drei. 
+
+P.S. try clicking on it.
 
 # How To
 
